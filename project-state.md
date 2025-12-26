@@ -1,30 +1,34 @@
-\# VulcanPaaS – Project State
-
-
-
 \## Completed:
 
 \- Phase 0A: Windows \& PowerShell baseline
+
+\- Phase 0B: Git installed
+
+\- Phase 0C: Folder structure created
+
+\- Phase 0D: Git initialized + first commit
+
+\- Phase 0E: GitHub repo created + push
 
 
 
 \## In progress:
 
-\- Phase 0: Foundation \& Local Environment Readiness
+\- None
 
 
 
 \## Next:
 
-\- Phase 0B: Install Git \& Docker Desktop
+\- Phase 1: Core runtime \& local orchestration (Docker baseline)
 
 
 
 \## Decisions:
 
-\- Windows-first architecture
+\- GitHub as source of truth
 
-\- PowerShell preferred over CMD
+\- main branch protected (later)
 
 
 
