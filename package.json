@@ -1,0 +1,6 @@
+"scripts": {
+  "test": "echo \"No tests yet\"",
+  "lint": "echo \"No lint yet\"",
+  "build": "echo \"No build step yet\"",
+  "start": "node index.js"
+}

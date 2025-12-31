@@ -1,27 +1,67 @@
-# OS
+# =========================
+# OS / System files
+# =========================
 Thumbs.db
 .DS_Store
+desktop.ini
 
+# =========================
 # Logs
+# =========================
 logs/*
 !logs/README.md
+*.log
 
-# Environment files
+# =========================
+# Environment files (secrets)
+# =========================
 .env
 .env.*
+!.env.example
 
+# =========================
+# Node / JavaScript
+# =========================
+node_modules/
+**/node_modules/
+
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
 # Docker
-**/node_modules
-**/dist
-**/.docker
+# =========================
+.docker/
+**/.docker/
+docker-compose.override.yml
 
-# WSL
+# =========================
+# CI / Runtime artifacts
+# =========================
+.cache/
+.tmp/
+
+# =========================
+# WSL / Windows
+# =========================
 *.vhdx
 
-# IDEs
+# =========================
+# IDEs / Editors
+# =========================
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Temporary
+# =========================
+# Temporary / Backup files
+# =========================
 *.tmp
-*.log
+*.bak
+*.old
