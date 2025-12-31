@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node -e \"console.log('No tests yet')\""
+    "test": "node -e \"const { health } = require('./src/health'); const r = health(); if (!r.ok) { console.error('Health check failed'); process.exit(1); } console.log('Health check passed:', r);\""
   },
   "license": "ISC",
   "type": "commonjs"
